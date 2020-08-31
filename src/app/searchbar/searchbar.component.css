@@ -1,0 +1,23 @@
+.card {
+  background-color:grey;
+  margin: auto;
+}
+
+button, h1, h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.jumbotron {
+  background-color:gainsboro;
+  /* font-size: 30px;
+  font-weight: bold; */
+}
+
+.container {
+  background-image: url();
+  background-size: 1130px 500px;
+  height: 800px;
+
+}
