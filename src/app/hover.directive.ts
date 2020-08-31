@@ -1,26 +1,26 @@
-// import { Directive, ElementRef, Renderer2, Input, OnInit } from '@angular/core'
+import { Directive, ElementRef, Renderer2, Input, OnInit } from '@angular/core'
 
-// @Directive({
-//   selector: '[appHover]',
-// })
-// export class hoverDirective implements OnInit {
-//   @Input() defaultColor: string
+@Directive({
+  selector: '[appHover]',
+})
+export class hoverDirective implements OnInit {
+  @Input() defaultColor: string
 
-//   constructor(private elementRef: ElementRef, private renderer: Renderer2) {}
+  constructor(private elementRef: ElementRef, private renderer: Renderer2) {}
 
-//   ngOnInit() {
-//     if (this.defaultColor) {
-//       this.setBgColor(this.defaultColor)
-//     } else {
-//       this.setBgColor('white')
-//     }
-//   }
+  ngOnInit() {
+    if (this.defaultColor) {
+      this.setBgColor(this.defaultColor)
+    } else {
+      this.setBgColor('white')
+    }
+  }
 
-//   setBgColor(color: string) {
-//     this.renderer.setStyle(
-//       this.elementRef.nativeElement,
-//       'backgroundColor',
-//       color
-//     )
-//   }
-// }
+  setBgColor(color: string) {
+    this.renderer.setStyle(
+      this.elementRef.nativeElement,
+      'backgroundColor',
+      color
+    )
+  }
+}
