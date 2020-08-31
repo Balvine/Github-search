@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchbarComponent implements OnInit {
 
+
+  inputsearch = ''
+  outputresult = []
+  users: any = []
+  reposearch = ''
+  outputRepoSearch = []
+  repos: any = []
+
   constructor() { }
 
   ngOnInit(): void {
