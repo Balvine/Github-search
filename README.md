@@ -1,7 +1,7 @@
 ## Project name.
 - Github-Search
 ## Project description.
-- The website is basically a website that one can upload quotes and he or she can like and dislike the qoute or upvote or downvote.
+- The website is basically a website where a user can search for his/her github profile and be able to view the repositories.
 ## Author information.
  - BALVINE MBARI
 ## Setup instructions 
